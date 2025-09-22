@@ -8,6 +8,7 @@
 PC installed with SCILAB. 
 
 ## PROGRAM (LPF): 
+~~~
 clc ; 
 close ; 
 wp=input('Enter the pass band frequency (Radians )= ' ); 
@@ -62,10 +63,12 @@ ylabel('Magnitude ');
 
  
 title(' Frequency Response of Butterworth IIR LPF');
+~~~
 
 
 
 ## PROGRAM (HPF): 
+~~~
 clc;
 close;
 wp = input('Enter the pass band frequency (Radians )= ');
@@ -119,6 +122,7 @@ plot(w/%pi, abs(HW));
 xlabel(' Normalized Digital Frequency w');
 ylabel('Magnitude');
 title(' Frequency Response of Butterworth IIR HPF');
+~~~
 
 
 
